@@ -1,0 +1,44 @@
+p {
+  padding: 10px;
+}
+
+.grey {
+  color: grey;
+  font-size: 22px;
+}
+
+.big-font {
+  color: black;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.rainbow {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.link {
+  color: blue;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.form-inline {
+  padding: 15px;
+  font-size: 40px;
+}
+
+.btn {
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.answer {
+  background-color: #F9C7CF;
+}
