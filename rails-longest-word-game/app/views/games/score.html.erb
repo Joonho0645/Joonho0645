@@ -1,0 +1,14 @@
+<h1>Your result</h1>
+
+<div>
+  <p>Your attempt was </p><p class="bold"><%= @attempt %></p>
+  <br>
+  <p>Your score is </p><p class="bold"><%= @score %></p>
+  <br>
+  <p>This word in French: </p><p class="bold"><%= @translation %></p>
+  <br>
+  <p>So, </p><p class="bold"><%= @message %>!</p>
+</div>
+
+<div>
+  <%= link_to "Play another game!", new_path %>

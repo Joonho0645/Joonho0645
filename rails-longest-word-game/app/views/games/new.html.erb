@@ -1,0 +1,18 @@
+
+
+
+<div class = "game">
+  <h2 class= "big-font"><%= @grid.join("  -  ").upcase %> </h2>
+  <div>
+    <form action="/score" class="form-inline">
+      <input type="text" id="try" name="attempt" placeholder="Enter your word here" class="form-control bar">
+      <br>
+      <input type="hidden" id="try" name="grid" value="<%= @grid.join %>">
+      <!-- *2* because of the name and the value here we pass the grid in the playgame page to the params so the calcscore page can access it (note: need to join here because can only pass strings) HIDDEB -->
+      <br>
+      <input type="hidden" id="try" name="start_time" value="<%= @start_time.to_s %>">
+      <br>
+      <input type="submit" value="Go on!" class="btn btn-default">
+    </form>
+  </div>
+</div>

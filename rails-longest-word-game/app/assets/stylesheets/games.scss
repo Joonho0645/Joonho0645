@@ -1,0 +1,32 @@
+div {
+  padding: 10px;
+  margin: 10px;
+}
+
+h3 {
+  color: grey;
+  padding-bottom: 20px;
+  color: grey;
+}
+
+.bold {
+  font-weight: 700;
+  color: grey;
+}
+
+.bar {
+  width: 70vh;
+  align-item: center;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.big-font {
+  font-size: 50px;
+  font-weight: bold;
+}
